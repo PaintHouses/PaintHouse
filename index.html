@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Viewport" content="width=device-width, initial-scale=1">
+	<title>PAINTHOUSE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!--header -->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">PAINTHOUSE</a></h1>
+			<ul>
+				<li class="active"><a href="index.html">HOME</a></li>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="category.html">CATEGORY</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+			</ul>
+        </div>
+
+    </header>
+<nav class="anjay">
+	<div class="slider">
+        <div class="slides">
+
+        <!-- radio buttons start -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!-- radio buttons end -->
+        <!-- slide image start -->
+        <div class="slide first">
+            <img src="img/1s.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/2s.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/3s.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/4s.jpg" alt="">
+        </div>
+        <!-- slide image end -->
+         <!-- automatic navigation start -->
+         <!-- automatic navigation end -->
+        </div>
+        <!-- manual navigation start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!-- manual navigation end -->
+    </div>
+    <!-- image slider end -->
+
+    <script type="text/javascript">
+    var counter = 2;
+    setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4) {
+            counter = 1;
+        }
+    }, 5000);
+    </script>
+</nav>
+
+	<!--headline--->
+	<section class="headline">
+		<div class="container">
+			<h3>TOP FREE PHOTO STOCKS</h3>
+			<p>F I N D  Y O U R  F O O T A G E  H E R E</p>
+		</div> 
+	</section>>
+	
+	<!--galeri--->
+	<div class="galeri">
+	<img src="img/1.jpg">
+	<img src="img/2.jpg">
+	<img src="img/3.jpg">
+	<img src="img/4.jpg">
+	<img src="img/5.jpg">
+	<img src="img/7.jpg">
+	<img src="img/8.jpg">
+	<img src="img/9.jpg">
+	<img src="img/10.jpg">
+	<img src="img/11.jpg">
+	<img src="img/12.jpg">
+	<img src="img/13.jpg">
+	<img src="img/14.jpg">
+	<img src="img/15.jpg">
+
+	</div>
+	
+	<!--service--->
+	<section class="service">
+		<div class="container">
+			<h4>CONTACT & SUPPORT</h4>
+			<div class="box">
+				<div class="col-4">
+					<div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div> 
+					<h5>MOBILE APP</h5>
+				</div>
+				<div class="col-4">
+					<div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div> 
+					<h5>INSTAGRAM</h5>
+				</div>
+				<div class="col-4">
+					<div class="icon"><i class="fa fa-twitter-square" aria-hidden="true"></i></div> 
+					<h5>TWITTER</h5>
+				</div>
+				<div class="col-4">
+					<div class="icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></div> 
+					<h5>FACEBOOK</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
